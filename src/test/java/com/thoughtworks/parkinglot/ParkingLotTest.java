@@ -49,7 +49,6 @@ public class ParkingLotTest {
         Parkable car2 = new Car();
         parkingLot.park(car1);
         parkingLot.park(car2);
-
         parkingLot.unpark(car1);
 
         boolean isParked = parkingLot.isParked(car1);
